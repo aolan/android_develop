@@ -56,7 +56,22 @@ jenv doctor
 3. 点击下一步，询问是否共享数据，我们选择 Don't send；
 4. 然后会弹出错误 "Unable to access Android SDK add-on list"，原因是第一次启动，会在默认路径下检测是否有 Android SDK，如果没有就会报错，这里我们点击 cancel 先暂时跳过；
 5. 然后进入配置向导，点击下一步，选择 Standard，然后点击下一步；
-6. 选择完主题，然后点击 Finish，就会自动安装需要的组件。
+6. 选择完主题，然后点击 Finish，就会自动安装需要的组件。这一步会安装下列组件，安装完毕点击Finish即可。
+```
+Android SDK Platform-Tools
+
+Android Emulator
+
+SDK Patch Applier v4 
+
+Android SDK Tools
+
+Android SDK Build-Tools 31
+
+Android SDK Platform 31
+
+```
+
 
 
 
