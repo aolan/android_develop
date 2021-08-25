@@ -78,10 +78,8 @@ Android SDK Platform 31
 下载链接：https://www.genymotion.com/download/
 
 1. 需要先安装VirtualBox，这里选择的版本为VirtualBox 6.1.16，因为最新版本的genymotion需要这个版本；
-2. 
+2. genymotion下载时需要先进行账号注册，安装完成之后，需要用之前注册的账号进行登录，才能下载各个型号的手机模拟器。
 
-
-下载包中包含VirtualBox，下载完毕之后，对dmg文件进行安装。
 
 
 ## 5. 创建项目
