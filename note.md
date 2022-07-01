@@ -32,16 +32,27 @@ Non-Bundled Plugins: org.jetbrains.kotlin (212-1.7.0-release-281-AS5457.46)
 4. Perfomance（Intel HAXM）加速安卓模拟器的软件
 5. Android SDK Toll
 
+
+## 窗口描述
+
+| 窗口      |    功能描述 | 
+| :-------- | --------:|
+| Android | |
+| Project | |
+| Problems| 主要用于识别项目中某些文件编码错误或语法错误。|
+
+
 ## 快捷键
 
 | 描述       |    快捷键 | 
 | :-------- | --------:|  
 | 搜索 | shift两次 |  
-| 查找类 |  cmd + o |  
-| 查找文件 | cmd + shift + o | 
-| 显示最近的文件 | cmd + shift + o | 
+| 查找类 |  cmd + O |  
+| 查找文件 | cmd + shift + O | 
+| 显示最近的文件 | cmd + E | 
 | 完成当前代码行 | cmd + shift + return | 
-| 查看方法参数 | cmd + p |
+| 代码格式化 |	option + cmd + L | 
+| 查看方法参数 | cmd + P |
 | 查看方法 | fn + cmd + F12 | 
 | 打开Project | cmd + 1 |
 | 打开Favorites | cmd + 2 |
@@ -50,15 +61,6 @@ Non-Bundled Plugins: org.jetbrains.kotlin (212-1.7.0-release-281-AS5457.46)
 | 运行 | ctrl + r |
 | 调试 | ctrl + d |
 
-
-
 ## package 命名规则
 采用反域名命名规则，全部使用小写字母。一级包名为com，二级包名lwz（为个人或公司名称，可以简写），三级包名guidecity（根据应用进行命名），四级包名ui或utils等（模块名或层级名），根据实际情况也是可以用五级包名，六级包名。
-
-## 窗口描述
-
-1. Android
-2. Project
-3. Problems   主要用于识别项目中某些文件编码错误或语法错误。
-
 
