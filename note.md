@@ -33,12 +33,23 @@ Non-Bundled Plugins: org.jetbrains.kotlin (212-1.7.0-release-281-AS5457.46)
 5. Android SDK Toll
 
 ## 快捷键
-1. 搜索   			         shift两次
-2. 打开最近的文件    	    cmd + e
-3. 完成当前代码行          cmd+shift+return
-4. 查看方法的参数          cmd+p 
-5. 快速打开Project窗口    cmd+1
-6. 快速打开Favorites窗口  cmd+2
+
+| 描述       |    快捷键 | 
+| :-------- | --------:|  
+| 搜索 | shift两次 |  
+| 查找类 |  cmd + o |  
+| 查找文件 | cmd + shift + o | 
+| 显示最近的文件 | cmd + shift + o | 
+| 完成当前代码行 | cmd + shift + return | 
+| 查看方法参数 | cmd + p |
+| 查看方法 | fn + cmd + F12 | 
+| 打开Project | cmd + 1 |
+| 打开Favorites | cmd + 2 |
+| 打开Terminal | fn + option + F12 |
+| 隐藏所有窗口 | fn + shift + cmd + F12 |
+| 运行 | ctrl + r |
+| 调试 | ctrl + d |
+
 
 
 ## package 命名规则
