@@ -64,3 +64,11 @@ Non-Bundled Plugins: org.jetbrains.kotlin (212-1.7.0-release-281-AS5457.46)
 ## package 命名规则
 采用反域名命名规则，全部使用小写字母。一级包名为com，二级包名lwz（为个人或公司名称，可以简写），三级包名guidecity（根据应用进行命名），四级包名ui或utils等（模块名或层级名），根据实际情况也是可以用五级包名，六级包名。
 
+
+| 可见修饰符       |    描述 | 
+| :-------- | --------:|  
+| private | 只对当前类的内部可见 |  
+| public |  默认项，对所有类可见 |  
+| protected | 只对当前类和子类可见 | 
+| internal | 只对当前模块可见 | 
+
