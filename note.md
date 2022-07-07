@@ -64,7 +64,7 @@ Non-Bundled Plugins: org.jetbrains.kotlin (212-1.7.0-release-281-AS5457.46)
 ## package 命名规则
 采用反域名命名规则，全部使用小写字母。一级包名为com，二级包名lwz（为个人或公司名称，可以简写），三级包名guidecity（根据应用进行命名），四级包名ui或utils等（模块名或层级名），根据实际情况也是可以用五级包名，六级包名。
 
-
+## 可见修饰符
 | 可见修饰符       |    描述 | 
 | :-------- | --------:|  
 | private | 只对当前类的内部可见 |  
@@ -77,8 +77,9 @@ Non-Bundled Plugins: org.jetbrains.kotlin (212-1.7.0-release-281-AS5457.46)
 2. 修改 setting.gradle 文件中的 rootProject.name
 
 
+## Activity启动模式
 | Activity启动模式       |    描述 | 
-| :-------- | --------:|  
+| :-------- | :--------|  
 | standard | 默认启动模式，不管返回栈中是否已经有了当前类的实例，都会创建新的实例 |  
 | singleTop |  如果当前类已经在栈顶了，这时希望再创建一个当前类的实例，实际不会创建 |  
 | singleTask | 会去返回栈中检查是否有某个类的实例，如果有就将这个类实例之上的Activity全部出栈，如果没有就创建一个新的 | 
