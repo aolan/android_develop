@@ -72,3 +72,6 @@ Non-Bundled Plugins: org.jetbrains.kotlin (212-1.7.0-release-281-AS5457.46)
 | protected | 只对当前类和子类可见 | 
 | internal | 只对当前模块可见 | 
 
+## 修改项目名称
+1. Android Studio关闭状态下，修改跟目录名称
+2. 修改 setting.gradle 文件中的 rootProject.name
