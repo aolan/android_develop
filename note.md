@@ -84,3 +84,16 @@ Non-Bundled Plugins: org.jetbrains.kotlin (212-1.7.0-release-281-AS5457.46)
 | singleTop |  如果当前类已经在栈顶了，这时希望再创建一个当前类的实例，实际不会创建 |  
 | singleTask | 会去返回栈中检查是否有某个类的实例，如果有就将这个类实例之上的Activity全部出栈，如果没有就创建一个新的 | 
 | singleInstance | 会启用一个新的返回栈来管理这个Activity （其实如果singleT ask 模式指定了不同的taskAffinity ，也会启动一个新的返回栈）| 
+
+
+## Android基础控件
+
+| 控件 | 描述 |
+| --- | --- |
+| TextView | 显示文本的组件 | 
+| Button | 按钮 | 
+| EditText | 输入和编辑文本 | 
+| ImageView | 显示图片 | 
+| ProgressBar | 加载进度，（可以是转圈圈，也可以是水平进度条）（可显示、可隐藏、可移除） |
+| AlertDialog | 对话框 |
+
