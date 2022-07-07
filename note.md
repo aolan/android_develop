@@ -75,3 +75,11 @@ Non-Bundled Plugins: org.jetbrains.kotlin (212-1.7.0-release-281-AS5457.46)
 ## 修改项目名称
 1. Android Studio关闭状态下，修改跟目录名称
 2. 修改 setting.gradle 文件中的 rootProject.name
+
+
+| Activity启动模式       |    描述 | 
+| :-------- | --------:|  
+| standard | 默认启动模式，不管返回栈中是否已经有了当前类的实例，都会创建新的实例 |  
+| singleTop |  如果当前类已经在栈顶了，这时希望再创建一个当前类的实例，实际不会创建 |  
+| singleTask | 会去返回栈中检查是否有某个类的实例，如果有就将这个类实例之上的Activity全部出栈，如果没有就创建一个新的 | 
+| singleInstance | 会启用一个新的返回栈来管理这个Activity （其实如果singleT ask 模式指定了不同的taskAffinity ，也会启动一个新的返回栈）| 
