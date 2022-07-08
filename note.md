@@ -76,6 +76,12 @@ Non-Bundled Plugins: org.jetbrains.kotlin (212-1.7.0-release-281-AS5457.46)
 1. Android Studio关闭状态下，修改跟目录名称
 2. 修改 setting.gradle 文件中的 rootProject.name
 
+## 安卓4大组件
+1. Activity
+2. Service
+3. BroadcastReceiver
+4. ContentProvider
+
 
 ## Activity启动模式
 | Activity启动模式       |    描述 | 
