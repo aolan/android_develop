@@ -116,6 +116,31 @@ if(Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)) {
 }
 ```
 
+### 10. 对于插了SD卡的情况
+
+目录：
+
+```shell
+
+// 机身存储的外部存储路径 
+/storage/emulated/0/Android/data/$packageName/files/mounted
+
+// SD卡的存储，也属于外部路径
+/storage/B3E4-1711/Android/data/packname/files/mounted 
+
+```
+
+获取方法：
+
+```kotlin
+
+val files = getExternalFilesDirs(Environment.MEDIA_MOUNTED);
+  for(File file: files){
+    Log.e("main", file); 
+  }
+```
+
+
 
 参考：
 * https://www.jianshu.com/p/321ad3e8bb19
