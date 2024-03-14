@@ -7,3 +7,4 @@
 * [4种作用域函数](scope.md)
 * [WIFI加密类型](wifi.md)
 * [安卓存储](storage.md)
+* [内存优化](内存优化.md)
